@@ -111,11 +111,20 @@ def story1A():
                     lineSkip()
                     print(str(
                         docHoward) + ": It is like something from a scary movie. Who knew something like this could happen.")
+                    choice1D = input(str(docHoward) + ": Anything else you want to know?"
+                                                      "\n 1. What do these people do that are so dangerous?"
+                                                      "\n 2. Is there any way to kill these people?")
                 elif choice1D == "2":
                     print(str(
                         docHoward) + ": From what we know a good hit to the head will take them down. This is the best way to do so.")
                     lineSkip()
                     time.sleep(2)
+                    choice1A = input(
+                        str(docHoward) + ": I should probably fill you in on some info ehh? Where should I begin?"
+                                         "\n 1. Where am I?"
+                                         "\n 2. Who are you?"
+                                         "\n 3. What is going on?"
+                                         "\n 4. That is all I think I need to know.")
         elif choice1A.lower() == "4":
             while choice1A.lower() == "4":
                 choice1ALeave = input(str(docHoward) + ": Are you sure, I mean you just got here? Y/N")
@@ -133,5 +142,6 @@ def story1A():
                     print(str(docHoward) + ": Go by the gun shop and see Sheriff Banks")
                     lineSkip()
                     time.sleep(2)
+
 
 story1A()

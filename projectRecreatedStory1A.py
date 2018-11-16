@@ -105,18 +105,15 @@ def story1A():
                                               "\n 2. Is there any way to kill these people?")
             while choice1D == "1" or "2":
                 if choice1D == "1":
-                    print(str(
-                        docHoward) + ": Well the infected people are very violent. They ermm. They Like to eat other .... people.")
+                    print(str(docHoward) + ": Well the infected people are very violent. They ermm. They Like to eat other .... people.")
                     time.sleep(2)
                     lineSkip()
-                    print(str(
-                        docHoward) + ": It is like something from a scary movie. Who knew something like this could happen.")
+                    print(str(docHoward) + ": It is like something from a scary movie. Who knew something like this could happen.")
                     choice1D = input(str(docHoward) + ": Anything else you want to know?"
                                                       "\n 1. What do these people do that are so dangerous?"
                                                       "\n 2. Is there any way to kill these people?")
                 elif choice1D == "2":
-                    print(str(
-                        docHoward) + ": From what we know a good hit to the head will take them down. This is the best way to do so.")
+                    print(str(docHoward) + ": From what we know a good hit to the head will take them down. This is the best way to do so.")
                     lineSkip()
                     time.sleep(2)
                     choice1A = input(str(docHoward) + ": I should probably fill you in on some info ehh? Where should I begin?"
@@ -141,6 +138,17 @@ def story1A():
                     print(str(docHoward) + ": Go by the gun shop and see Sheriff Banks")
                     lineSkip()
                     time.sleep(2)
+                    choice1A == "completed"
+                    return choice1A == "completed"
+                    return story1A() == "completed"
+                    break
+                elif choice1ALeave.lower() == "n":
+                    choice1A = input(str(docHoward) + ": I should probably fill you in on some info ehh? Where should I begin?"
+                                         "\n 1. Where am I?"
+                                         "\n 2. Who are you?"
+                                         "\n 3. What is going on?"
+                                         "\n 4. I am good I already know what is happening")
 
 
 story1A()
+

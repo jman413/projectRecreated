@@ -1,0 +1,3 @@
+cd C:\Users\User\AppData\Local\Programs\Python\Python37-32\Scripts
+
+pyuic5 -x "C:\Coding\projectRecreated\projectRecreated.ui" -o "C:\Coding\projectRecreated\projectRecreatedMainUI.py"

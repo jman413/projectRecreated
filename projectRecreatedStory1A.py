@@ -119,8 +119,7 @@ def story1A():
                         docHoward) + ": From what we know a good hit to the head will take them down. This is the best way to do so.")
                     lineSkip()
                     time.sleep(2)
-                    choice1A = input(
-                        str(docHoward) + ": I should probably fill you in on some info ehh? Where should I begin?"
+                    choice1A = input(str(docHoward) + ": I should probably fill you in on some info ehh? Where should I begin?"
                                          "\n 1. Where am I?"
                                          "\n 2. Who are you?"
                                          "\n 3. What is going on?"

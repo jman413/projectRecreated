@@ -3,7 +3,6 @@ import random
 
 import time
 
-
 playerInventory = []
 
 def lineSkip():
